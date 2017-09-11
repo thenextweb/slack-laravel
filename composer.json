@@ -18,5 +18,15 @@
             "Maknz\\Slack\\Laravel\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maknz\\Slack\\Laravel\\ServiceProviderLaravel5"
+            ],
+            "aliases": {
+                "Slack": "Maknz\\Slack\\Laravel\\Facade"
+            }
+        }
+    },
     "minimum-stability": "stable"
 }
